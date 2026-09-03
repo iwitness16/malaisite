@@ -18,7 +18,7 @@ export default function FloatingWidgets() {
         dangerouslySetInnerHTML={{
           __html: `
             var _smartsupp = _smartsupp || {};
-            _smartsupp.key = '9dd2b0591537f07ec61ad30d18b186c125f7e049';
+            _smartsupp.key = 'ceb238fb7d7921005d8968f4fbfa7f3a1a63ae41';
             window.smartsupp||(function(d) {
               var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
               s=d.getElementsByTagName('script')[0];c=d.createElement('script');
