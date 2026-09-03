@@ -1,0 +1,17 @@
+overrides:
+  next: "16.2.9"
+  hono: "4.12.25"
+
+onlyBuiltDependencies:
+  - "@firebase/util"
+  - msw
+  - protobufjs
+  - sharp
+  - esbuild
+  - "@next/swc-win32-x64-msvc"
+
+allowBuilds:
+  '@firebase/util': true
+  msw: true
+  protobufjs: true
+  sharp: true

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#111111" stroke-width="8"/>
+
+  <!-- Left side: two italic/slanted parallelograms stacked (representing the "8") -->
+  <!-- Top parallelogram -->
+  <polygon
+    points="32,30 68,30 60,68 24,68"
+    fill="none"
+    stroke="#111111"
+    stroke-width="7"
+    stroke-linejoin="round"
+  />
+  <!-- Bottom parallelogram -->
+  <polygon
+    points="24,82 60,82 52,120 16,120"
+    fill="none"
+    stroke="#111111"
+    stroke-width="7"
+    stroke-linejoin="round"
+  />
+
+  <!-- Right side: stylised "6" with stair-step notch -->
+  <!-- Top bar -->
+  <polyline
+    points="78,32 148,32 148,56 96,56"
+    fill="none"
+    stroke="#111111"
+    stroke-width="7"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+  <!-- Step down (middle notch going down) -->
+  <polyline
+    points="96,56 96,80 148,80 148,168 78,168 78,104 130,104"
+    fill="none"
+    stroke="#111111"
+    stroke-width="7"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+</svg>
